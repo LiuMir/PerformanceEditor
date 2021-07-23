@@ -122,8 +122,7 @@
     <Compile Include="Assets\_3rd\Flux\Runtime\Tracks\FRendererTrack.cs" />
     <Compile Include="Assets\_3rd\Flux\Runtime\Tracks\FSequenceTrack.cs" />
     <Compile Include="Assets\_3rd\Flux\Runtime\Tracks\FTransformTrack.cs" />
-    <Compile Include="Assets\_3rdExtension\FluxExtension\SelectOneTargetEvent.cs" />
-    <Compile Include="Assets\_3rdExtension\FluxExtension\SelectTargetTrack.cs" />
+    <Compile Include="Assets\_3rdExtension\FluxExtension\Runtime\SelectOneTargetEvent.cs" />
     <Reference Include="Unity.PackageManagerUI.Editor">
       <HintPath>E:/PerformanceEditor/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>

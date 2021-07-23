@@ -1,6 +1,6 @@
 ﻿using Flux;
 
-[FEvent("Animation/Play Animation", typeof(FAnimationTrack))]
+[FEvent("SelectTarget/Select One Target")]
 public class SelectOneTargetEvent : FEvent
 {
     
