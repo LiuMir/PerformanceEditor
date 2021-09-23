@@ -174,11 +174,11 @@ namespace Flux
 		private bool _isPlaying = false;
 		/// @brief Is the sequence playing?
 		public bool IsPlaying { get { return _isPlaying; } }
-
-		// Is the sequence playing forward?
-		private bool _isPlayingForward = true;
-		/// @brief Is the sequence moving forward?
-		public bool IsPlayingForward { get { return _isPlayingForward; } }
+        
+        // Is the sequence playing forward?
+        private bool _isPlayingForward = true;
+        /// @brief Is the sequence moving forward?
+        public bool IsPlayingForward { get { return _isPlayingForward; } }
 
 		// time we last updated
 		private float _lastUpdateTime = 0;

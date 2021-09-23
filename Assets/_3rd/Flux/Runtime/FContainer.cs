@@ -21,7 +21,11 @@ namespace Flux
 		public override FSequence Sequence { get { return _sequence; } }
 		public override Transform Owner { get { return null; } }
 
-		public static FContainer Create( Color color )
+        //flux 自定义参数容器
+        [SerializeField]
+        public SerializableFluxParamDictionary ParamDic = new SerializableFluxParamDictionary();
+        
+        public static FContainer Create( Color color )
 		{
 			GameObject go = new GameObject("Default");
 			FContainer container = go.AddComponent<FContainer>();
